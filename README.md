@@ -1,8 +1,8 @@
 # helpers.test
 
-# Repositorio de pruebas para funciones auxiliares con Jest
+## Repositorio de pruebas para funciones auxiliares con Jest
 
-Este repositorio contiene ejemplos de funciones auxiliares y sus pruebas correspondientes utilizando el marco de pruebas [Jest](https://jestjs.io/).
+Este repositorio contiene ejemplos de funciones auxiliares y sus pruebas correspondientes utilizando el framework [Jest](https://jestjs.io/).
 
 ## Objetivo
 
@@ -37,5 +37,27 @@ npm test
 Jest ejecutará todas las pruebas y mostrará los resultados en la terminal.
 
 
+## Estructura de directorios
+
+helpers.test/
+├─ src/
+│   ├─ helpers/
+│   │   ├─ helper1.js
+│   │   ├─ helper2.js
+│   │   └─ ...
+│   └─ index.js
+├─ tests/
+│   ├─ helpers/
+│   │   ├─ helper1.test.js
+│   │   ├─ helper2.test.js
+│   │   └─ ...
+│   └─ index.test.js
+├─ .gitignore
+├─ package.json
+├─ package-lock.json
+└─ README.md
+
+
 ## Contribuir
+
 Si deseas contribuir a este repositorio, sos bienvenido, asegúrate de seguir buenas prácticas de desarrollo y pruebas! Crea una rama para tus cambios y, una vez completados y probados, crea un pull request para que tus cambios sean revisados e incorporados al repositorio principal.

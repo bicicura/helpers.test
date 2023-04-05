@@ -1,4 +1,4 @@
-const { integerIsFilled, MESSAGE, getValue } = require('./integerIsFilled');
+const { integerIsFilled, MESSAGE, getValue } = require('../../src/helpers/integerIsFilled');
 
 
 describe('integerIsFilled', () => {
