@@ -39,7 +39,8 @@ Jest ejecutará todas las pruebas y mostrará los resultados en la terminal.
 
 ## Estructura de directorios
 
-helpers.test/
+```plaintext
+repo_pruebas_helper_functions/
 ├─ src/
 │   ├─ helpers/
 │   │   ├─ helper1.js
@@ -56,6 +57,7 @@ helpers.test/
 ├─ package.json
 ├─ package-lock.json
 └─ README.md
+```
 
 
 ## Contribuir
