@@ -1,6 +1,5 @@
 const { integerIsFilled, MESSAGE, getValue } = require('../../src/helpers/integerIsFilled');
 
-
 describe('integerIsFilled', () => {
   test('returns a function', () => {
     const result = integerIsFilled();

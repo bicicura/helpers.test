@@ -42,17 +42,17 @@ Jest ejecutará todas las pruebas y mostrará los resultados en la terminal.
 ```plaintext
 repo_pruebas_helper_functions/
 ├─ src/
-│   ├─ helpers/
-│   │   ├─ helper1.js
-│   │   ├─ helper2.js
-│   │   └─ ...
-│   └─ index.js
+│   └─ helpers/
+│       ├─ helper1.js
+│       ├─ helper2.js
+│       └─ ...
+
 ├─ tests/
-│   ├─ helpers/
-│   │   ├─ helper1.test.js
-│   │   ├─ helper2.test.js
-│   │   └─ ...
-│   └─ index.test.js
+│   └─ helpers/
+│       ├─ helper1.test.js
+│       ├─ helper2.test.js
+│       └─ ...
+│    
 ├─ .gitignore
 ├─ package.json
 ├─ package-lock.json
